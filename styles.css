@@ -1,0 +1,46 @@
+.home {
+    background-image: url(./images/Health.png);
+    background-size: cover;
+}
+
+.home .nav {
+    left: 20px;
+    position: absolute;
+}
+
+h1 {
+    color: navajowhite;
+}
+
+.about p {
+    color: #e594f8;
+}
+
+.about h1 {
+    color: #8d7ffc;
+}
+
+.about a{
+    color: rgb(247, 235, 235);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left; 
+    width: 33.33%;
+    padding: 2px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h2 {
+    color: #791b5b;
+    font-size: 20px;
+}
